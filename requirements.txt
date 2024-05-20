@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+datasets
+pandas
+transformers
+tensorflow
+faiss-cpu
