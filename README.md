@@ -40,12 +40,12 @@ The Dockerfile named **scraper.Dockerfile** does the following:
 
 To build a Docker image in cmd run: 
 ```bash
-`docker build -t my_scraper_pythonproject -f scraper.Dockerfile .`
+docker build -t my_scraper_pythonproject -f scraper.Dockerfile .
 ```
 
 Run the scraper container:
 ```bash
-`docker run -v "$(PWD):/main_task" my_scraper_pythonproject` 
+docker run -v "$(PWD):/main_task" my_scraper_pythonproject 
 ```
 
 This command mounts the current directory ($(PWD)) to the **_/main_task_** directory
