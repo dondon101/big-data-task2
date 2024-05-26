@@ -89,8 +89,8 @@ def get_articles(url_final_list):
                 'label': label_text
             })
 
-        print("Section: " + label_text + " | Page: ", re.search(r'page[/=](\d+)', url).group(1))
-        time.sleep(random.uniform(1, 5))
+        # print("Section: " + label_text + " | Page: ", re.search(r'page[/=](\d+)', url).group(1))
+        # time.sleep(random.uniform(1, 5))
 
     print("Total articles found: " + str(len(articles)))
     return articles
